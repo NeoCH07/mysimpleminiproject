@@ -6,8 +6,8 @@ terraform {
     }
   }
    backend "s3"{
-        bucket = "sctp-ce3-tfstate-bucket"
-        key = "hao26aug_v1.tfstate"
+        bucket = "sctp-ce3-tfstate-bucket-1"
+        key = "hao_ghworkflow_retry1.tfstate"
         region = "us-east-1"
     }
 }
